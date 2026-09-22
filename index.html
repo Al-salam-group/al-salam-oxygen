@@ -1,0 +1,477 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- SEO -->
+  <title>Al Salam Oxygen Plant | Medical &amp; Industrial Oxygen in Somaliland</title>
+  <meta name="description" content="Al Salam Oxygen Plant supplies medical and industrial oxygen in Somaliland. Reliable oxygen refilling and delivery. Call or WhatsApp +252 63 459 9905." />
+  <meta name="keywords" content="oxygen plant, medical oxygen, industrial oxygen, oxygen refill, oxygen supplier Somaliland" />
+  <meta name="robots" content="index, follow" />
+  <meta name="author" content="Al Salam Oxygen Plant" />
+  <link rel="canonical" href="https://al-salam-group.github.io/al-salam-oxygen/" />
+
+  <!-- Open Graph / Social -->
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Al Salam Oxygen Plant | Medical &amp; Industrial Oxygen" />
+  <meta property="og:description" content="Reliable medical and industrial oxygen supply and delivery in Somaliland." />
+  <meta property="og:locale" content="en_US" />
+  <meta name="twitter:card" content="summary" />
+
+  <meta name="theme-color" content="#052e2b" />
+  <link rel="icon" href="logo.png" type="image/png" />
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;600;700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+
+  <style>
+    :root {
+      --deep: #04211f;
+      --deep-2: #06302c;
+      --teal: #0d9488;
+      --teal-dark: #0f766e;
+      --aqua: #5eead4;
+      --aqua-soft: #ccfbf1;
+      --sky: #f0fbfa;
+      --ink: #122a28;
+      --muted: #55706c;
+      --white: #ffffff;
+      --whatsapp: #25d366;
+      --green-dark: #1da851;
+      --gold: #fbbf24;
+      --shadow-sm: 0 4px 20px rgba(4, 33, 31, 0.06);
+      --shadow-lg: 0 24px 60px rgba(4, 33, 31, 0.14);
+      --radius: 20px;
+    }
+
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    html { scroll-behavior: smooth; }
+    body {
+      font-family: "Inter", system-ui, -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      color: var(--ink);
+      line-height: 1.65;
+      background: var(--white);
+      -webkit-font-smoothing: antialiased;
+    }
+    h1, h2, h3, .brand { font-family: "Sora", "Inter", sans-serif; }
+    a { text-decoration: none; }
+    .container { max-width: 1100px; margin: 0 auto; padding: 0 24px; }
+    .section { padding: 88px 0; }
+
+    .eyebrow {
+      display: inline-flex; align-items: center; gap: 8px;
+      font-size: 0.78rem; font-weight: 600; letter-spacing: 0.16em; text-transform: uppercase;
+      color: var(--teal-dark); background: var(--aqua-soft);
+      padding: 7px 14px; border-radius: 999px; margin-bottom: 18px;
+    }
+    .eyebrow::before { content: ""; width: 7px; height: 7px; border-radius: 50%; background: var(--teal); }
+
+    h2.title { font-size: clamp(1.7rem, 4vw, 2.4rem); font-weight: 700; letter-spacing: -0.02em; color: var(--deep); margin-bottom: 14px; }
+    p.subtitle { color: var(--muted); max-width: 680px; font-size: 1.05rem; }
+
+    .grad { background: linear-gradient(100deg, var(--teal) 0%, var(--aqua) 100%); -webkit-background-clip: text; background-clip: text; -webkit-text-fill-color: transparent; color: transparent; }
+
+    /* ===== Header ===== */
+    header {
+      position: sticky; top: 0; z-index: 50;
+      background: rgba(255, 255, 255, 0.82);
+      backdrop-filter: saturate(180%) blur(14px);
+      -webkit-backdrop-filter: saturate(180%) blur(14px);
+      border-bottom: 1px solid rgba(13, 148, 136, 0.12);
+    }
+    .nav { display: flex; align-items: center; justify-content: space-between; height: 68px; }
+    .brand { display: flex; align-items: center; gap: 10px; font-weight: 700; font-size: 1.05rem; color: var(--deep); }
+    .brand .mark {
+      width: 44px; height: 38px; flex: none;
+      display: grid; place-items: center;
+    }
+    .brand .mark img { height: 38px; width: auto; display: block; }
+    .nav-links { display: flex; align-items: center; gap: 26px; font-size: 0.94rem; font-weight: 500; }
+    .nav-links a { color: var(--muted); transition: color .15s ease; }
+    .nav-links a:hover { color: var(--teal-dark); }
+    .nav-cta {
+      background: var(--whatsapp); color: #fff !important; font-weight: 600;
+      padding: 9px 18px; border-radius: 999px; display: inline-flex; align-items: center; gap: 7px;
+      box-shadow: 0 6px 18px rgba(37, 211, 102, 0.3);
+    }
+    .nav-cta:hover { background: var(--green-dark); }
+
+    /* ===== Hero ===== */
+    .hero {
+      position: relative; overflow: hidden;
+      background: radial-gradient(1200px 600px at 80% -10%, #0f766e 0%, transparent 60%),
+                  radial-gradient(900px 500px at -10% 110%, #14b8a6 0%, transparent 55%),
+                  linear-gradient(160deg, var(--deep) 0%, var(--deep-2) 55%, #0b3f3a 100%);
+      color: #fff; text-align: center; padding: 120px 0 140px;
+    }
+    .bubble {
+      position: absolute; border-radius: 50%;
+      background: radial-gradient(circle at 30% 30%, rgba(255,255,255,0.35), rgba(255,255,255,0.04) 70%);
+      border: 1px solid rgba(255,255,255,0.12);
+      animation: floatUp linear infinite;
+      will-change: transform;
+    }
+    @keyframes floatUp {
+      0% { transform: translateY(0) scale(1); opacity: 0; }
+      10% { opacity: 1; }
+      90% { opacity: 0.6; }
+      100% { transform: translateY(-110vh) scale(1.15); opacity: 0; }
+    }
+    .hero-badge {
+      display: inline-flex; align-items: center; gap: 8px;
+      background: rgba(255,255,255,0.08); border: 1px solid rgba(255,255,255,0.16);
+      color: var(--aqua); font-size: 0.8rem; font-weight: 600; letter-spacing: 0.06em;
+      padding: 8px 16px; border-radius: 999px; margin-bottom: 26px;
+    }
+    .hero h1 { font-size: clamp(2.2rem, 6vw, 3.9rem); font-weight: 800; letter-spacing: -0.03em; line-height: 1.1; margin-bottom: 20px; }
+    .hero h1 .grad { -webkit-text-fill-color: transparent; }
+    .hero p { font-size: 1.15rem; max-width: 620px; margin: 0 auto 36px; color: rgba(255,255,255,0.82); }
+    .hero-actions { display: flex; gap: 14px; justify-content: center; flex-wrap: wrap; }
+    .btn {
+      display: inline-flex; align-items: center; gap: 9px;
+      font-weight: 600; font-size: 1rem; padding: 15px 28px; border-radius: 14px;
+      transition: transform .15s ease, box-shadow .15s ease, background .15s ease;
+    }
+    .btn svg { width: 20px; height: 20px; }
+    .btn:hover { transform: translateY(-2px); }
+    .btn-primary { background: linear-gradient(135deg, var(--teal), var(--aqua)); color: var(--deep); box-shadow: 0 12px 30px rgba(20, 184, 166, 0.35); }
+    .btn-wa { background: var(--whatsapp); color: #fff; box-shadow: 0 12px 30px rgba(37, 211, 102, 0.35); }
+    .btn-wa:hover { background: var(--green-dark); }
+    .hero-trust { margin-top: 48px; display: flex; gap: 34px; justify-content: center; flex-wrap: wrap; color: rgba(255,255,255,0.7); font-size: 0.9rem; }
+    .hero-trust span { display: flex; align-items: center; gap: 8px; }
+    .hero-trust b { color: #fff; font-weight: 600; }
+
+    /* ===== About ===== */
+    .about-grid { display: grid; grid-template-columns: 1.05fr 0.95fr; gap: 56px; align-items: center; }
+    .about-copy p { color: var(--muted); margin-bottom: 14px; }
+    .feature-list { list-style: none; margin-top: 22px; display: grid; gap: 12px; }
+    .feature-list li { display: flex; gap: 12px; align-items: flex-start; color: var(--ink); font-weight: 500; }
+    .feature-list .tick {
+      flex: none; width: 22px; height: 22px; border-radius: 50%; margin-top: 2px;
+      background: var(--aqua-soft); color: var(--teal-dark); display: grid; place-items: center; font-size: 0.75rem;
+    }
+    .about-visual {
+      position: relative; border-radius: 28px; overflow: hidden;
+      background: linear-gradient(150deg, var(--deep-2), var(--teal-dark));
+      padding: 40px; min-height: 360px; display: grid; place-items: center;
+      box-shadow: var(--shadow-lg);
+    }
+    .about-visual .glow {
+      position: absolute; width: 260px; height: 260px; border-radius: 50%;
+      background: radial-gradient(circle, rgba(94,234,212,0.5), transparent 70%);
+      filter: blur(6px);
+    }
+    .about-visual .card-badge {
+      position: relative; background: rgba(255,255,255,0.08); border: 1px solid rgba(255,255,255,0.16);
+      backdrop-filter: blur(8px); border-radius: 18px; padding: 22px 26px; text-align: center; color: #fff;
+    }
+    .about-visual .card-badge .big { font-size: 2.4rem; font-weight: 800; color: var(--aqua); }
+    .about-visual .card-badge small { color: rgba(255,255,255,0.75); }
+
+    /* ===== Services ===== */
+    .services { background: var(--sky); position: relative; overflow: hidden; }
+    .services::before {
+      content: ""; position: absolute; inset: 0;
+      background: radial-gradient(800px 400px at 100% 0%, rgba(94,234,212,0.18), transparent 60%);
+    }
+    .services .container { position: relative; }
+    .cards { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 24px; margin-top: 44px; }
+    .card {
+      background: var(--white); border: 1px solid #e3f1ef; border-radius: var(--radius);
+      padding: 34px 30px; box-shadow: var(--shadow-sm);
+      transition: transform .2s ease, box-shadow .2s ease; position: relative; overflow: hidden;
+    }
+    .card::after {
+      content: ""; position: absolute; left: 0; top: 0; width: 100%; height: 4px;
+      background: linear-gradient(90deg, var(--teal), var(--aqua)); transform: scaleX(0); transform-origin: left;
+      transition: transform .3s ease;
+    }
+    .card:hover { transform: translateY(-6px); box-shadow: var(--shadow-lg); }
+    .card:hover::after { transform: scaleX(1); }
+    .card .icon {
+      width: 54px; height: 54px; border-radius: 14px; margin-bottom: 20px; display: grid; place-items: center;
+      background: var(--aqua-soft); color: var(--teal-dark);
+    }
+    .card .icon svg { width: 28px; height: 28px; }
+    .card h3 { font-size: 1.25rem; color: var(--deep); margin-bottom: 10px; }
+    .card p { color: var(--muted); font-size: 0.96rem; }
+    .card ul { list-style: none; margin-top: 16px; }
+    .card li { display: flex; gap: 9px; align-items: center; color: var(--muted); font-size: 0.94rem; margin-bottom: 8px; }
+    .card li::before { content: "✓"; color: var(--teal); font-weight: 700; }
+
+    /* ===== Stats / why ===== */
+    .why { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 22px; margin-top: 44px; }
+    .why-item { text-align: center; padding: 26px 18px; }
+    .why-item .num { font-size: 2.1rem; font-weight: 800; color: var(--teal-dark); }
+    .why-item .lbl { color: var(--muted); font-size: 0.95rem; margin-top: 4px; }
+
+    /* ===== Contact ===== */
+    .contact { background: linear-gradient(160deg, var(--deep) 0%, var(--deep-2) 100%); color: #fff; position: relative; overflow: hidden; }
+    .contact::before { content: ""; position: absolute; inset: 0; background: radial-gradient(700px 400px at 20% 0%, rgba(94,234,212,0.2), transparent 60%); }
+    .contact .container { position: relative; }
+    .contact h2.title { color: #fff; }
+    .contact p.subtitle { color: rgba(255,255,255,0.7); }
+    .contact-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 24px; margin-top: 44px; }
+    .contact-card {
+      display: flex; flex-direction: column; align-items: center; text-align: center;
+      padding: 40px 26px; border-radius: var(--radius); color: #fff;
+      background: rgba(255,255,255,0.06); border: 1px solid rgba(255,255,255,0.14);
+      backdrop-filter: blur(6px); transition: transform .2s ease, background .2s ease;
+    }
+    .contact-card:hover { transform: translateY(-6px); background: rgba(255,255,255,0.1); }
+    .contact-card .icon { width: 60px; height: 60px; border-radius: 50%; display: grid; place-items: center; margin-bottom: 18px; }
+    .contact-card .icon svg { width: 30px; height: 30px; }
+    .contact-card .wa-ic { background: var(--whatsapp); }
+    .contact-card .tel-ic { background: linear-gradient(135deg, var(--teal), var(--aqua)); color: var(--deep); }
+    .contact-card h3 { font-size: 1.2rem; margin-bottom: 6px; }
+    .contact-card .num { font-size: 1.3rem; font-weight: 700; letter-spacing: 0.01em; color: #fff; display: block; margin: 2px 0; }
+    .contact-card .num:hover { text-decoration: underline; }
+    .contact-card .num.main { font-size: 1.5rem; }
+    .contact-card .extras { margin-top: 8px; }
+    .contact-card .extras a { display: block; color: rgba(255,255,255,0.82); font-size: 0.95rem; margin: 2px 0; }
+    .contact-card .extras a:hover { color: #fff; text-decoration: underline; }
+    .contact-card small { color: rgba(255,255,255,0.65); margin-top: 8px; }
+
+    /* ===== Footer ===== */
+    footer { background: var(--deep); color: rgba(255,255,255,0.55); text-align: center; padding: 30px 0; font-size: 0.9rem; border-top: 1px solid rgba(255,255,255,0.08); }
+    footer .container { display: flex; flex-direction: column; gap: 6px; align-items: center; }
+
+    /* ===== Reveal animation ===== */
+    .reveal { opacity: 0; transform: translateY(28px); transition: opacity .7s ease, transform .7s ease; }
+    .reveal.visible { opacity: 1; transform: none; }
+
+    @media (max-width: 720px) {
+      .nav-links a:not(.nav-cta) { display: none; }
+      .about-grid { grid-template-columns: 1fr; gap: 36px; }
+      .section { padding: 64px 0; }
+    }
+  </style>
+
+  <!-- LocalBusiness structured data for Google -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "name": "Al Salam Oxygen Plant",
+    "description": "Medical and industrial oxygen supply, refilling, and delivery in Somaliland.",
+    "foundingDate": "2016",
+    "telephone": "+252634599905",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Somaliland",
+      "addressCountry": "Somaliland"
+    },
+    "areaServed": "Somaliland",
+    "hasOfferCatalog": {
+      "@type": "OfferCatalog",
+      "name": "Oxygen Services",
+      "itemListElement": [
+        { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Medical Oxygen" } },
+        { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Industrial Oxygen" } }
+      ]
+    }
+  }
+  </script>
+</head>
+<body>
+
+  <header>
+    <div class="container nav">
+      <span class="brand"><span class="mark"><img src="logo.png" alt="Al Salam Oxygen Plant logo" /></span> Al Salam Oxygen</span>
+      <nav class="nav-links">
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#contact">Delivery</a>
+        <a class="nav-cta" href="https://wa.me/252634599905" target="_blank" rel="noopener">
+          <svg viewBox="0 0 24 24" fill="currentColor" width="16" height="16"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2Zm0 18.2a8.2 8.2 0 0 1-4.2-1.2l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 1 1 12 20.2Zm4.6-6.1c-.3-.1-1.5-.7-1.7-.8-.2-.1-.4-.1-.6.1-.2.3-.7.8-.8 1-.1.2-.3.2-.5.1a6.4 6.4 0 0 1-3.2-2.8c-.2-.4.2-.4.6-1.2.1-.2 0-.4 0-.5l-.8-1.8c-.2-.5-.4-.4-.6-.4h-.5c-.2 0-.5.1-.7.3-.9.9-1.1 2-.6 3.3a10 10 0 0 0 4.5 4.7c1.7.9 2.3 1 3.2.8.5-.1 1.5-.6 1.7-1.2.2-.6.2-1.1.1-1.2Z"/></svg>
+          WhatsApp
+        </a>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero" id="hero">
+    <div class="container">
+      <h1>Pure Oxygen,<br /><span class="grad">Delivered with Care</span> since 2016.</h1>
+      <p>Al Salam Oxygen Plant supplies dependable medical and industrial oxygen across Somaliland, refilled, delivered, and ready when you need it most.</p>
+      <div class="hero-actions">
+        <a class="btn btn-wa" href="https://wa.me/252634599905" target="_blank" rel="noopener">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2Zm0 18.2a8.2 8.2 0 0 1-4.2-1.2l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 1 1 12 20.2Zm4.6-6.1c-.3-.1-1.5-.7-1.7-.8-.2-.1-.4-.1-.6.1-.2.3-.7.8-.8 1-.1.2-.3.2-.5.1a6.4 6.4 0 0 1-3.2-2.8c-.2-.4.2-.4.6-1.2.1-.2 0-.4 0-.5l-.8-1.8c-.2-.5-.4-.4-.6-.4h-.5c-.2 0-.5.1-.7.3-.9.9-1.1 2-.6 3.3a10 10 0 0 0 4.5 4.7c1.7.9 2.3 1 3.2.8.5-.1 1.5-.6 1.7-1.2.2-.6.2-1.1.1-1.2Z"/></svg>
+          Chat on WhatsApp
+        </a>
+        <a class="btn btn-primary" href="tel:+252634599905">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M6.6 10.8a15.6 15.6 0 0 0 6.6 6.6l2.2-2.2c.3-.3.7-.4 1-.2 1.1.4 2.3.6 3.6.6.6 0 1 .4 1 1V20c0 .6-.4 1-1 1A17 17 0 0 1 3 4c0-.6.4-1 1-1h3.4c.6 0 1 .4 1 1 0 1.3.2 2.5.6 3.6.1.3 0 .7-.2 1l-2.2 2.2Z"/></svg>
+          Call Now
+        </a>
+      </div>
+      <div class="hero-trust">
+        <span><b>Medical</b> Grade</span>
+        <span><b>Industrial</b> Supply</span>
+        <span><b>Delivery</b> in Somaliland</span>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="about">
+    <div class="container about-grid">
+      <div class="about-copy reveal">
+        <span class="eyebrow">Who We Are</span>
+        <h2 class="title">Somaliland's first ever private oxygen plant</h2>
+        <p>Founded in 2016, Al Salam Oxygen Plant is a locally trusted supplier of high-purity oxygen, serving hospitals, clinics, workshops, and businesses across Somaliland and beyond.</p>
+        <p>We combine dependable quality with fast, careful delivery, because when oxygen is needed, every moment counts.</p>
+        <ul class="feature-list">
+          <li><span class="tick">✓</span> High-purity medical &amp; industrial oxygen</li>
+          <li><span class="tick">✓</span> Reliable cylinder refilling service</li>
+          <li><span class="tick">✓</span> Prompt delivery across the region</li>
+          <li><span class="tick">✓</span> Safe, professional handling</li>
+        </ul>
+      </div>
+      <div class="about-visual reveal">
+        <span class="glow"></span>
+        <div class="card-badge">
+          <div class="big">O₂</div>
+          <small>Pure &amp; dependable oxygen supply</small>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section services" id="services">
+    <div class="container">
+      <div class="reveal">
+        <span class="eyebrow">Our Services</span>
+        <h2 class="title">Oxygen for every need</h2>
+        <p class="subtitle">From hospital wards to factory floors, we deliver the oxygen your work and patients depend on.</p>
+      </div>
+      <div class="cards">
+        <div class="card reveal">
+          <div class="icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3v18M8.5 8.5h7M9 6.5h6"/><rect x="5" y="8" width="14" height="13" rx="3"/></svg>
+          </div>
+          <h3>Medical Oxygen</h3>
+          <p>High-purity oxygen for hospitals, clinics, and home care.</p>
+          <ul>
+            <li>Oxygen for hospitals &amp; clinics</li>
+            <li>Cylinder refilling &amp; supply</li>
+            <li>Safe, sterile handling</li>
+          </ul>
+        </div>
+        <div class="card reveal">
+          <div class="icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2l8 3v6c0 5-3.5 8.5-8 11-4.5-2.5-8-6-8-11V5l8-3z"/><path d="M9 12l2 2 4-4"/></svg>
+          </div>
+          <h3>Industrial Oxygen</h3>
+          <p>Reliable oxygen for welding, cutting, and manufacturing.</p>
+          <ul>
+            <li>Oxygen for welding &amp; cutting</li>
+            <li>Workshop &amp; factory supply</li>
+            <li>Bulk &amp; cylinder orders</li>
+          </ul>
+        </div>
+        <div class="card reveal">
+          <div class="icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3 7h11v8H3zM14 10h4l3 3v2h-7z"/><circle cx="7" cy="17" r="2"/><circle cx="17" cy="17" r="2"/></svg>
+          </div>
+          <h3>Delivery &amp; Refilling</h3>
+          <p>Fast, careful delivery and cylinder refilling on request.</p>
+          <ul>
+            <li>Prompt local delivery</li>
+            <li>Quick cylinder refilling</li>
+            <li>Flexible scheduling</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="why">
+    <div class="container">
+      <div class="reveal" style="text-align:center">
+        <span class="eyebrow">Why Choose Us</span>
+        <h2 class="title">Built on trust and reliability</h2>
+      </div>
+      <div class="why">
+        <div class="why-item reveal"><div class="num">100%</div><div class="lbl">High-purity oxygen</div></div>
+        <div class="why-item reveal"><div class="num">24/7</div><div class="lbl">Ready when needed</div></div>
+        <div class="why-item reveal"><div class="num">Fast</div><div class="lbl">Delivery &amp; refilling</div></div>
+        <div class="why-item reveal"><div class="num">Safe</div><div class="lbl">Professional handling</div></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section contact" id="contact">
+    <div class="container">
+      <div class="reveal" style="text-align:center">
+        <span class="eyebrow" style="background:rgba(94,234,212,0.15);color:var(--aqua)">Delivery &amp; Contact</span>
+        <h2 class="title">Order oxygen, we'll deliver</h2>
+        <p class="subtitle" style="margin:0 auto">Reach us any time by phone or WhatsApp and we'll arrange delivery in Somaliland.</p>
+      </div>
+      <div class="contact-grid">
+        <div class="contact-card reveal">
+          <div class="icon wa-ic">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2Zm0 18.2a8.2 8.2 0 0 1-4.2-1.2l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 1 1 12 20.2Zm4.6-6.1c-.3-.1-1.5-.7-1.7-.8-.2-.1-.4-.1-.6.1-.2.3-.7.8-.8 1-.1.2-.3.2-.5.1a6.4 6.4 0 0 1-3.2-2.8c-.2-.4.2-.4.6-1.2.1-.2 0-.4 0-.5l-.8-1.8c-.2-.5-.4-.4-.6-.4h-.5c-.2 0-.5.1-.7.3-.9.9-1.1 2-.6 3.3a10 10 0 0 0 4.5 4.7c1.7.9 2.3 1 3.2.8.5-.1 1.5-.6 1.7-1.2.2-.6.2-1.1.1-1.2Z"/></svg>
+          </div>
+          <h3>WhatsApp</h3>
+          <a class="num main" href="https://wa.me/252634599905" target="_blank" rel="noopener">+252 63 459 9905</a>
+          <div class="extras">
+            <a href="https://wa.me/252634421556" target="_blank" rel="noopener">+252 63 442 1556</a>
+            <a href="https://wa.me/252634426371" target="_blank" rel="noopener">+252 63 442 6371</a>
+          </div>
+          <small>Tap a number to chat with us</small>
+        </div>
+        <div class="contact-card reveal">
+          <div class="icon tel-ic">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M6.6 10.8a15.6 15.6 0 0 0 6.6 6.6l2.2-2.2c.3-.3.7-.4 1-.2 1.1.4 2.3.6 3.6.6.6 0 1 .4 1 1V20c0 .6-.4 1-1 1A17 17 0 0 1 3 4c0-.6.4-1 1-1h3.4c.6 0 1 .4 1 1 0 1.3.2 2.5.6 3.6.1.3 0 .7-.2 1l-2.2 2.2Z"/></svg>
+          </div>
+          <h3>Call Us</h3>
+          <a class="num main" href="tel:+252634599905">+252 63 459 9905</a>
+          <div class="extras">
+            <a href="tel:+252634421556">+252 63 442 1556</a>
+            <a href="tel:+252634426371">+252 63 442 6371</a>
+          </div>
+          <small>Speak to our team directly</small>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <span>Al Salam Oxygen Plant, Hargeisa, Somaliland</span>
+      <span>Medical &amp; Industrial Oxygen · Refilling · Delivery</span>
+    </div>
+  </footer>
+
+  <script>
+    // Floating bubbles in hero
+    const hero = document.querySelector('.hero');
+    const COUNT = 18;
+    for (let i = 0; i < COUNT; i++) {
+      const b = document.createElement('span');
+      b.className = 'bubble';
+      const size = Math.random() * 60 + 12;
+      b.style.width = size + 'px';
+      b.style.height = size + 'px';
+      b.style.left = Math.random() * 100 + '%';
+      b.style.bottom = '-80px';
+      b.style.animationDuration = (Math.random() * 14 + 10) + 's';
+      b.style.animationDelay = (Math.random() * 12) + 's';
+      hero.appendChild(b);
+    }
+
+    // Scroll reveal
+    const io = new IntersectionObserver((entries) => {
+      entries.forEach(e => {
+        if (e.isIntersecting) {
+          e.target.classList.add('visible');
+          io.unobserve(e.target);
+        }
+      });
+    }, { threshold: 0.12 });
+    document.querySelectorAll('.reveal').forEach(el => io.observe(el));
+  </script>
+</body>
+</html>
